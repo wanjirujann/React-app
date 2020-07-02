@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<compiz_session id="10cd3268b1db5aaec4159237016787810900000016740029">
+  <window id="10cd3268b1db5aaec4159237018488165100000016740030" title="WhatsApp - Mozilla Firefox" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="65" y="24" width="928" height="972"/>
+    <minimized/>
+    <maximized vert="yes" horz="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

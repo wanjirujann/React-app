@@ -1,0 +1,221 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+      index.js - Documentation
+  </title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+  <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+  
+
+  
+</head>
+
+<body>
+  <svg style="display: none;">
+    <defs>
+      <symbol id="linkIcon" fill="#706d77" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0h24v24H0z" fill="none"/>
+          <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+  <label for="nav-trigger" class="navicon-button x">
+    <div class="navicon"></div>
+  </label>
+
+  <label for="nav-trigger" class="overlay"></label>
+
+  <div class="top-nav-wrapper">
+    <ul>
+      <li >
+        <a href="index.html">
+          
+            <svg fill="#6D6D6D" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+              <path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+          
+          
+        </a>
+      </li>
+
+      
+
+    </ul>
+  </div>
+
+  <nav>
+    <h3 class="reference-title">
+      SDK Client Reference
+    </h3>
+
+    
+
+    <h3>Classes</h3><ul><li id="Translate-nav"><a href="v2.Translate.html">Translate</a><ul class='methods'><li data-type="method" id="Translate-detect-nav"><a href="v2.Translate.html#detect">detect</a></li><li data-type="method" id="Translate-getLanguages-nav"><a href="v2.Translate.html#getLanguages">getLanguages</a></li><li data-type="method" id="Translate-translate-nav"><a href="v2.Translate.html#translate">translate</a></li></ul></li><li id="v3beta1.TranslationServiceClient-nav"><a href="v3beta1.TranslationServiceClient.html">v3beta1.TranslationServiceClient</a><ul class='methods'><li data-type="method" id="v3beta1.TranslationServiceClient-batchTranslateText-nav"><a href="v3beta1.TranslationServiceClient.html#batchTranslateText">batchTranslateText</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-close-nav"><a href="v3beta1.TranslationServiceClient.html#close">close</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-createGlossary-nav"><a href="v3beta1.TranslationServiceClient.html#createGlossary">createGlossary</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-deleteGlossary-nav"><a href="v3beta1.TranslationServiceClient.html#deleteGlossary">deleteGlossary</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-detectLanguage-nav"><a href="v3beta1.TranslationServiceClient.html#detectLanguage">detectLanguage</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-getGlossary-nav"><a href="v3beta1.TranslationServiceClient.html#getGlossary">getGlossary</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-getProjectId-nav"><a href="v3beta1.TranslationServiceClient.html#getProjectId">getProjectId</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-getSupportedLanguages-nav"><a href="v3beta1.TranslationServiceClient.html#getSupportedLanguages">getSupportedLanguages</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-glossaryPath-nav"><a href="v3beta1.TranslationServiceClient.html#glossaryPath">glossaryPath</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-listGlossaries-nav"><a href="v3beta1.TranslationServiceClient.html#listGlossaries">listGlossaries</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-listGlossariesStream-nav"><a href="v3beta1.TranslationServiceClient.html#listGlossariesStream">listGlossariesStream</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-locationPath-nav"><a href="v3beta1.TranslationServiceClient.html#locationPath">locationPath</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-matchGlossaryFromGlossaryName-nav"><a href="v3beta1.TranslationServiceClient.html#matchGlossaryFromGlossaryName">matchGlossaryFromGlossaryName</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-matchLocationFromGlossaryName-nav"><a href="v3beta1.TranslationServiceClient.html#matchLocationFromGlossaryName">matchLocationFromGlossaryName</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-matchLocationFromLocationName-nav"><a href="v3beta1.TranslationServiceClient.html#matchLocationFromLocationName">matchLocationFromLocationName</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-matchProjectFromGlossaryName-nav"><a href="v3beta1.TranslationServiceClient.html#matchProjectFromGlossaryName">matchProjectFromGlossaryName</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-matchProjectFromLocationName-nav"><a href="v3beta1.TranslationServiceClient.html#matchProjectFromLocationName">matchProjectFromLocationName</a></li><li data-type="method" id="v3beta1.TranslationServiceClient-translateText-nav"><a href="v3beta1.TranslationServiceClient.html#translateText">translateText</a></li></ul></li><li id="v3.TranslationServiceClient-nav"><a href="v3.TranslationServiceClient.html">v3.TranslationServiceClient</a><ul class='methods'><li data-type="method" id="v3.TranslationServiceClient-batchTranslateText-nav"><a href="v3.TranslationServiceClient.html#batchTranslateText">batchTranslateText</a></li><li data-type="method" id="v3.TranslationServiceClient-close-nav"><a href="v3.TranslationServiceClient.html#close">close</a></li><li data-type="method" id="v3.TranslationServiceClient-createGlossary-nav"><a href="v3.TranslationServiceClient.html#createGlossary">createGlossary</a></li><li data-type="method" id="v3.TranslationServiceClient-deleteGlossary-nav"><a href="v3.TranslationServiceClient.html#deleteGlossary">deleteGlossary</a></li><li data-type="method" id="v3.TranslationServiceClient-detectLanguage-nav"><a href="v3.TranslationServiceClient.html#detectLanguage">detectLanguage</a></li><li data-type="method" id="v3.TranslationServiceClient-getGlossary-nav"><a href="v3.TranslationServiceClient.html#getGlossary">getGlossary</a></li><li data-type="method" id="v3.TranslationServiceClient-getProjectId-nav"><a href="v3.TranslationServiceClient.html#getProjectId">getProjectId</a></li><li data-type="method" id="v3.TranslationServiceClient-getSupportedLanguages-nav"><a href="v3.TranslationServiceClient.html#getSupportedLanguages">getSupportedLanguages</a></li><li data-type="method" id="v3.TranslationServiceClient-glossaryPath-nav"><a href="v3.TranslationServiceClient.html#glossaryPath">glossaryPath</a></li><li data-type="method" id="v3.TranslationServiceClient-listGlossaries-nav"><a href="v3.TranslationServiceClient.html#listGlossaries">listGlossaries</a></li><li data-type="method" id="v3.TranslationServiceClient-listGlossariesStream-nav"><a href="v3.TranslationServiceClient.html#listGlossariesStream">listGlossariesStream</a></li><li data-type="method" id="v3.TranslationServiceClient-locationPath-nav"><a href="v3.TranslationServiceClient.html#locationPath">locationPath</a></li><li data-type="method" id="v3.TranslationServiceClient-matchGlossaryFromGlossaryName-nav"><a href="v3.TranslationServiceClient.html#matchGlossaryFromGlossaryName">matchGlossaryFromGlossaryName</a></li><li data-type="method" id="v3.TranslationServiceClient-matchLocationFromGlossaryName-nav"><a href="v3.TranslationServiceClient.html#matchLocationFromGlossaryName">matchLocationFromGlossaryName</a></li><li data-type="method" id="v3.TranslationServiceClient-matchLocationFromLocationName-nav"><a href="v3.TranslationServiceClient.html#matchLocationFromLocationName">matchLocationFromLocationName</a></li><li data-type="method" id="v3.TranslationServiceClient-matchProjectFromGlossaryName-nav"><a href="v3.TranslationServiceClient.html#matchProjectFromGlossaryName">matchProjectFromGlossaryName</a></li><li data-type="method" id="v3.TranslationServiceClient-matchProjectFromLocationName-nav"><a href="v3.TranslationServiceClient.html#matchProjectFromLocationName">matchProjectFromLocationName</a></li><li data-type="method" id="v3.TranslationServiceClient-translateText-nav"><a href="v3.TranslationServiceClient.html#translateText">translateText</a></li></ul></li></ul><h3>Modules</h3><ul><li id="@google-cloud_translate-nav"><a href="module-@google-cloud_translate.html">@google-cloud/translate</a></li></ul>
+  </nav>
+
+  <div id="main">
+    
+      <h1 class="page-title">
+        index.js
+      </h1>
+    
+
+    
+      
+
+<section>
+  <article>
+    <pre class="prettyprint source linenums"><code>"use strict";
+/*!
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+const v2 = require("./v2");
+exports.v2 = v2;
+/**
+ * The `@google-cloud/translate` package has the following named exports:
+ *
+ * - `{@link TranslationServiceClient}` class - constructor for v3 of the Translation API.
+ * See {@link v3.TranslationServiceClient} for client methods.
+ * - `v3` - client for the v3 backend service version. It exports:
+ *    - `TranslationServiceClient` - Reference to {@link v3.TranslationServiceClient}
+ * - `v3beta1` - client for the v3beta1 backend service version. It exports:
+ *    - `TranslationServiceClient` - Reference to {@link v3beta1.TranslationServiceClient}
+ * - `v2` - client for the v2 backend service version. It exports:
+ *    - `Translate` - Reference to {@link v2.Translate}
+ *
+ * @module {constructor} @google-cloud/translate
+ * @alias nodejs-translate
+ *
+ * @example &lt;caption>Install the v3 client library with &lt;a
+ * href="https://www.npmjs.com/">npm&lt;/a>:&lt;/caption>
+ * npm install --save @google-cloud/translate
+ *
+ * @example &lt;caption>Import the v3 client library:&lt;/caption>
+ * const {TranslationServiceClient} = require('@google-cloud/translate');
+ *
+ * @example &lt;caption>Create a v3 client that uses &lt;a
+ * href="https://goo.gl/64dyYX">Application Default Credentials
+ * (ADC)&lt;/a>:&lt;/caption>
+ * const client = new TranslationServiceClient();
+ *
+ * @example &lt;caption>include:samples/quickstart.js&lt;/caption>
+ * region_tag:translate_quickstart
+ * Full quickstart example:
+ *
+ * @example &lt;caption>Install the v3beta1 client library:&lt;/caption>
+ * npm install --save @google-cloud/translate
+ *
+ * @example &lt;caption>Import the v3beta1 client library:&lt;/caption>
+ * const {TranslationServiceClient} =
+ * require('@google-cloud/translate').v3beta1;
+ */
+const v3beta1 = require("./v3beta1");
+exports.v3beta1 = v3beta1;
+const v3 = require("./v3");
+exports.v3 = v3;
+__export(require("./v3"));
+const TranslationServiceClient = v3.TranslationServiceClient;
+exports.TranslationServiceClient = TranslationServiceClient;
+// For compatibility with JavaScript libraries we need to provide this default export:
+// tslint:disable-next-line no-default-export
+exports.default = {
+    v2,
+    v3beta1,
+    v3,
+    TranslationServiceClient,
+};
+const protos = require("../protos/protos");
+exports.protos = protos;
+//# sourceMappingURL=index.js.map</code></pre>
+  </article>
+</section>
+
+    
+
+
+  </div>
+
+  <br class="clear">
+
+  <footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a>
+  </footer>
+
+  <script src="scripts/linenumber.js"></script>
+  <script src="scripts/pagelocation.js"></script>
+
+  
+
+<script src ="/yoshi.js"></script></body>
+</html>
+ŠÎ£      ^ýºz^ýºˆA×ÃÐ^ýÈ‰   =    :https://googleapis.dev/nodejs/translate/latest/index.js.html necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+x-guploader-uploadid: AAANsUlHZ5M-Wmw_8Pl-zqrtd-XFI8IoUtUCzBJ8wZQGXfSl3RGzpDsf9ciT-udlUwgpZF-e-Y9GBFM0IwrjTQA3j0cSRTdEHw
+expires: Thu, 02 Jul 2020 11:44:17 GMT
+date: Thu, 02 Jul 2020 10:44:17 GMT
+cache-control: public, max-age=3600
+last-modified: Thu, 27 Feb 2020 20:49:47 GMT
+etag: "97fa9473681929ab6009ab13850a522d"
+x-goog-generation: 1582836587904847
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 12568
+content-type: text/html
+x-goog-hash: crc32c=2BnTFg==, md5=l/qUc2gZKatgCasThQpSLQ==
+x-goog-storage-class: MULTI_REGIONAL
+accept-ranges: bytes
+content-length: 12568
+server: UploadServer
+alt-svc: clear
+X-Firefox-Spdy: h2
+ original-response-headers x-guploader-uploadid: AAANsUlHZ5M-Wmw_8Pl-zqrtd-XFI8IoUtUCzBJ8wZQGXfSl3RGzpDsf9ciT-udlUwgpZF-e-Y9GBFM0IwrjTQA3j0cSRTdEHw
+expires: Thu, 02 Jul 2020 11:44:17 GMT
+date: Thu, 02 Jul 2020 10:44:17 GMT
+cache-control: public, max-age=3600
+last-modified: Thu, 27 Feb 2020 20:49:47 GMT
+etag: "97fa9473681929ab6009ab13850a522d"
+x-goog-generation: 1582836587904847
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 12568
+content-type: text/html
+x-goog-hash: crc32c=2BnTFg==
+x-goog-hash: md5=l/qUc2gZKatgCasThQpSLQ==
+x-goog-storage-class: MULTI_REGIONAL
+accept-ranges: bytes
+content-length: 12568
+server: UploadServer
+alt-svc: clear
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 7465 net-response-time-onstop 7481 predictor::resource-count 12 predictor::https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js 1,1,1593686650,4096 predictor::https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js 1,1,1593686650,4096 predictor::https://googleapis.dev/nodejs/translate/latest/styles/prettify-tomorrow.css 1,1,1593686650,4097 predictor::https://googleapis.dev/nodejs/translate/latest/styles/jsdoc-default.css 1,1,1593686650,4097 predictor::https://googleapis.dev/nodejs/translate/latest/scripts/linenumber.js 1,1,1593686650,4097 predictor::https://googleapis.dev/nodejs/translate/latest/scripts/pagelocation.js 1,1,1593686650,4097 predictor::https://googleapis.dev/yoshi.js 1,1,1593686650,4097 predictor::https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js 1,1,1593686650,4096 predictor::https://www.gstatic.com/firebasejs/5.10.0/firebase-firestore.js 1,1,1593686650,4096 predictor::https://www.googletagmanager.com/gtag/js?id=UA-138574123-2 1,1,1593686650,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1593686650,4096 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j83&a=2044934800&t=pageview&_s=1&dl=https%3A%2F%2Fgoogleapis.dev%2Fnodejs%2Ftranslate%2Flatest%2Findex.js.html&dr=https%3A%2F%2Fwww.google.com%2F&ul=en-us&de=UTF-8&dt=index.js%20-%20Documentation&sd=24-bit&sr=1920x1080&vp=1843x982&je=0&_u=IEBAAUAB~&jid=748765428&gjid=101647035&cid=1034460866.1593686664&tid=UA-138574123-2&_gid=36124916.1593686664&_r=1&gtm=2ou6o0&z=1582799456 1,1,1593686650,4096   1

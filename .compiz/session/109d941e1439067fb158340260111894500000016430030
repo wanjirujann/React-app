@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<compiz_session id="109d941e1439067fb158340260111894500000016430030">
+  <window id="109d941e1439067fb158340289829285800000016430032" title="Ubuntu Start Page - Mozilla Firefox" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="65" y="24" width="928" height="1028"/>
+    <maximized vert="yes" horz="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

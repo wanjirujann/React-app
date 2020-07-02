@@ -1,0 +1,9 @@
+function getSaturdayAfternoonRoutine() {
+         takeLunch()
+         washHair()
+         oilHair()
+         buskUnderSun()
+         readNovel()
+}
+
+     getSaturdayAfternoonRoutine() 

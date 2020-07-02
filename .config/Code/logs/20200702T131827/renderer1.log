@@ -1,0 +1,5 @@
+[2020-07-02 13:20:43.890] [renderer1] [error] timeout after 1000 ms: Error: timeout after 1000 ms
+    at t.RawDebugSession.handleErrorResponse (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3160:190)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3159:451
+    at async t.RawDebugSession.shutdown (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3157:536)
+    at async file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6559:715

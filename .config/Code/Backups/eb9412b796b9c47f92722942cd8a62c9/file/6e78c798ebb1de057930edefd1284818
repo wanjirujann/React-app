@@ -1,0 +1,38 @@
+file:///home/student/greens-kiosk/src/index.js {"mtime":1593685230352,"ctime":1593685230352,"size":783,"etag":"35b7e308hp8","orphaned":false}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
+<html><head> 
+  <title>Greens Kiosk</title> 
+ </head> 
+ <body> 
+  <h1 id="title">Welcome to Greens Kiosk</h1> 
+  <p>We sell fruits and vegetables</p> 
+  <h3>Fruits</h3> 
+  <ul id="fruList"> 
+   <li>Mangoes</li> 
+   <li>Bananas</li> 
+   <li>Water Melons</li> 
+  </ul> 
+  <h3>Vegetables</h3> 
+  <ul id="vegList"> 
+   <li>Onions</li> 
+   <li>Tomatoes</li> 
+   <li>Kales</li> 
+  </ul> 
+ 
+</body></html>
+
+setInterval(changeColor, 1000);
+     function changeColor() {
+      var x=document.getElementById("title");
+      if(x.style.color=="green")
+       x.style.color="silver";
+      else if (x.style.color=="green")
+       x.style.color="silver";
+      else if (x.style.color=="green")
+       x.style.color="silver";
+      else x.style.color="green";
+     } 

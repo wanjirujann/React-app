@@ -1,0 +1,2 @@
+http:www.tomorrow-economy.com:80:.	0	18432	http:www.tomorrow-economy.com:80:www.tomorrow-economy.com:443::n:1592599418:h2:y:1592462776:n:
+http:javascript.info:80:.	0	18436	http:javascript.info:80:javascript.info:443::n:1592895654:h2:y:1592892856:n:

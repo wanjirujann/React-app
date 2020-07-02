@@ -1,0 +1,25 @@
+1593076762472	Sync.LogManager	DEBUG	Flushing file log
+1593076762474	browserwindow.syncui	DEBUG	observed: weave:ui:clear-error
+1593076762528	Sync.LogManager	DEBUG	Log cleanup threshold time: 1592212762528
+1593076762573	Sync.LogManager	DEBUG	Done deleting files.
+1593086849857	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1593090487231	Sync.Service	DEBUG	User-Agent: Firefox/52.0.1 (Linux x86_64) FxSync/1.54.0.20170321232041.desktop
+1593090487231	Sync.Service	INFO	Starting sync at 2020-06-25 16:08:07
+1593090487231	Sync.Service	DEBUG	In sync: should login.
+1593090487233	browserwindow.syncui	DEBUG	observed: weave:service:login:start
+1593090487234	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1593090487234	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1593090487234	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1593090487234	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1593090487234	browserwindow.syncui	DEBUG	observed: weave:service:login:error
+1593090487234	browserwindow.syncui	DEBUG	onLoginError: login=error.login.reason.no_username, sync=success.sync
+1593090487235	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1593090487235	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1593090487236	Sync.Service	DEBUG	Exception calling WrappedLock: Aborting login, client not configured.
+1593090487236	Sync.Service	DEBUG	Not syncing: login returned false.
+1593090487239	browserwindow.syncui	DEBUG	_loginFailed has sync state=error.login.reason.no_username
+1593090487240	browserwindow.syncui	DEBUG	_loginFailed has sync state=error.login.reason.no_username
+1593090487241	browserwindow.syncui	DEBUG	_loginFailed has sync state=error.login.reason.no_username
+1593090487241	browserwindow.syncui	DEBUG	_loginFailed has sync state=error.login.reason.no_username
+1593090487242	Sync.ErrorHandler	DEBUG	Addons installed: 1
+1593090487242	Sync.ErrorHandler	DEBUG	 - Ubuntu Modifications, version 3.2, id ubufox@ubuntu.com
